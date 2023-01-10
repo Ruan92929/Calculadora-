@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <button class="tela"></button>
+
+        <div class="box">
+            <div class="buttons"><button onclick="limpar()" id="clear">C</button></div>
+            <div class="buttons"><button onclick="apagar()" id="parents">>></button></div>
+            <div class="buttons"><button onclick="insert('%')" id="parents">%</button></div>
+            <div class="buttons"><button onclick="insert('/')" id="divi">/</button></div>
+        </div>
+        <div class="box">
+            <div class="buttons"><button onclick="insert('1')">1</button></div>
+            <div class="buttons"><button onclick="insert('2')">2</button></div>
+            <div class="buttons"><button onclick="insert('3')">3</button></div>
+            <div class="buttons"><button onclick="insert('*')" id="mult">x</button></div>
+        </div>
+        <div class="box">
+            <div class="buttons"><button onclick="insert('4')">4</button></div>
+            <div class="buttons"><button onclick="insert('5')">5</button></div>
+            <div class="buttons"><button onclick="insert('6')">6</button></div>
+            <div class="buttons"><button onclick="insert('-')" id="minus">-</button></div>
+        </div>
+        <div class="box">
+            <div class="buttons"><button onclick="insert('7')">7</button></div>
+            <div class="buttons"><button onclick="insert('8')">8</button></div>
+            <div class="buttons"><button onclick="insert('9')">9</button></div>
+            <div class="buttons"><button onclick="insert('+')" id="plus">+</button></div>
+        </div>
+        <div class="box">
+            <div class="buttons"><button onclick="insert('%')">%</button></div>
+            <div class="buttons"><button onclick="insert('0')">0</button></div>
+            <div class="buttons"><button onclick="insert('.')">.</button></div>
+            <div class="buttons" ><button onclick="calcular()" id="equal">=</button></div>
+        </div>
+
+
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

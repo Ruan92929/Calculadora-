@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+.container{
+    width: 250px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 0.5vh;
+    
+}
+.box{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.tela{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 0.5vh;
+    background-color: black;
+    color: green;
+    font-weight: bolder;
+    text-align: right;
+    font-size: 25px;
+    border: 5px solid gray;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons button {
+    width: 55px;
+    height: 40px;
+    margin-bottom: 0.5vh;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.buttons button:hover{
+    background-color: rgb(27, 25, 25);
+}
+
+#equal {
+    color: greenyellow;
+}
+#plus{
+    color: greenyellow;
+}
+#parents{
+    color: greenyellow;
+}
+#minus{
+    color: greenyellow;
+}
+#mult{
+    color: greenyellow;
+}
+#divi{
+    color: greenyellow;
+}
+
+#clear{
+    color: orange;
+}
